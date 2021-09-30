@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-custom{
+    background-color: #3aafa9;
+}
+
+.navbar-light .navbar-brand {
+    color:#feffff;
+}
+    
+.specs .title, .ability .title {
+    font-weight: bold;
+}
+
+.img-fluid {
+ height: 200px;
+ width: 200px;
+}
+
+.specs {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.hide {
+    display: none;
+}
+
+ 

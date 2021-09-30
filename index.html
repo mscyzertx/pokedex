@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pokemon</title>
+</head>
+<body>
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+  
+      <!-- Header Section -->
+      <header class="sticky-top">
+       <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+         <div class="container">
+          <a class="navbar-brand" href="#">Pokedex</a>
+         </div>
+              
+        </nav>
+      </header>
+      <!-- Header Section Ends -->
+
+      
+      <div class="bg-light py-5">
+        <div class="container py-5">
+          <div class="row mb-4">
+            <div class="col-lg-5">
+              <h2 class="display-5 font-weight-light">Pokemon Database</h2>
+              </div>
+          </div>
+      
+          <div class="row text-center pokemon-wrap">
+    
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <template id="specs-template">
+      <p><span class="title">Name: </span> <span id="name"></span></p>
+      <p><span class="title" >Abilities: </span> <span id="abilities"></span></p>
+      <p><span class="title" >Height: </span><span id="height"> </span></p>
+      <p><span class="title">Base Experience: </span> <span id="experience"></span></p>
+    </template>
+
+
+    <template id="ability-template">
+      <p><span class="title">Ability Name: </span> <span id="ability-name"></span></p>
+      <p><span class="title" >Ability Effect: </span> <span id="ability-effect"></span></p>
+      <p><span class="title" >Short Effect: </span><span id="short-effect"> </span></p>
+      <p><span class="title">Flavour Effect: </span> <span id="flavour-effect"></span></p>
+    </template>
+
+
+    <script src="./main.js"></script>
+</body> 
+      
+</html>
